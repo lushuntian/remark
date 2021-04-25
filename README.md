@@ -22,7 +22,7 @@
 
 #### 场景分析
 
-![image-20210330130827349](C:\Users\lushuntian\AppData\Roaming\Typora\typora-user-images\image-20210330130827349.png)
+![image-20210330130827349](https://sunday-picture.oss-cn-hangzhou.aliyuncs.com/image-20210330130827349.png)
 
 
 
@@ -154,7 +154,7 @@ public class RemarkRepository {
 
 仓库层在整个项目抽象层次结构中的位置：
 
-![image-20210420213127145](C:\Users\lushuntian\AppData\Roaming\Typora\typora-user-images\image-20210420213127145.png)
+![image-20210420213127145](https://sunday-picture.oss-cn-hangzhou.aliyuncs.com/image-20210420213127145.png)
 
 后文会多次提到仓库层，这是整个系统中非常重要的抽象。
 
@@ -248,7 +248,7 @@ public ResultMsg insert(String content){
 
 总是低层掌握的异常信息比高层掌握的更具体，高层是对低层执行结果的抽象概括。
 
-![image-20210331195659496](C:\Users\lushuntian\AppData\Roaming\Typora\typora-user-images\image-20210331195659496.png)
+![image-20210331195659496](https://sunday-picture.oss-cn-hangzhou.aliyuncs.com/image-20210331195659496.png)
 
 
 
@@ -1002,7 +1002,7 @@ return list;
 
 添加评价时的逻辑流程图如下：
 
-![image-20210423162444533](C:\Users\lushuntian\AppData\Roaming\Typora\typora-user-images\image-20210423162444533.png)
+![image-20210423162444533](https://sunday-picture.oss-cn-hangzhou.aliyuncs.com/image-20210423162444533.png)
 
 从设计图中可以看出，我在具体实现上一节的方案时，做了很多改进：
 
@@ -1021,7 +1021,7 @@ return list;
 
 查询评价时的逻辑流程图如下：
 
-![image-20210423162648447](C:\Users\lushuntian\AppData\Roaming\Typora\typora-user-images\image-20210423162648447.png)
+![image-20210423162648447](https://sunday-picture.oss-cn-hangzhou.aliyuncs.com/image-20210423162648447.png)
 
 评价缓存键是永远不会过期的，所以不论怎样，查询服务只要查询这个缓存键对应范围的列表即可。唯一需要注意的，就是当代理键过期时，需要执行重新加载流程，这一步和插入评价后所要做的是类似的。
 
@@ -1512,7 +1512,7 @@ public APIBody listRemarks(String itemId, int start, Integer consumerId){
 
 Postman测试接口：
 
-![image-20210421164015219](C:\Users\lushuntian\AppData\Roaming\Typora\typora-user-images\image-20210421164015219.png)
+![image-20210421164015219](https://sunday-picture.oss-cn-hangzhou.aliyuncs.com/image-20210421164015219.png)
 
 
 
@@ -1607,7 +1607,7 @@ Sentinel内部实现：
 
 在用户评价内容之后，系统会将评分纳入统计，生成摘要显示在页面上。类似下图：
 
-![image-20210422195751193](C:\Users\lushuntian\AppData\Roaming\Typora\typora-user-images\image-20210422195751193.png)
+![image-20210422195751193](https://sunday-picture.oss-cn-hangzhou.aliyuncs.com/image-20210422195751193.png)
 
 先从数据结构上分析，虽然上图包含了很多信息，但本质上是一个评分-人数的简单哈希表，总人数、评分比率和均分都可以从哈希表中计算而来，不需要单独存储。
 
