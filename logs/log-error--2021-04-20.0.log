@@ -1,0 +1,314 @@
+2021-04-20 09:13:27.560 ERROR --- [main] o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.sunday.remark.repository.RemarkCache required a single bean, but 2 were found:
+	- readAndLockScript: defined by method 'readAndLockScript' in class path resource [com/sunday/remark/config/redis/LuaConfiguration.class]
+	- releaseRemarkLockScript: defined by method 'releaseRemarkLockScript' in class path resource [com/sunday/remark/config/redis/LuaConfiguration.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2021-04-20 09:18:17.995 ERROR --- [http-nio-18080-exec-6] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_9d3eef23ac694250754fe26a58e903ca7d962f2a): @user_script:19: @user_script: 19: Lua redis() command arguments must be strings or integers
+2021-04-20 09:24:06.091 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_40d639a92271cce9c4ba6643d542fc2f282f15a7): @user_script:16: user_script:16: attempt to index field '?' (a nil value)
+2021-04-20 09:25:46.312 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:36:24","header":"深入浅出，推荐","id":25,"images":"xxx","itemId":"item-1","orderId":"o22","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:36:24","header":"深入浅出，推荐","id":25,"images":"xxx","itemId":"item-1","orderId":"o22","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]
+2021-04-20 09:25:55.520 ERROR --- [http-nio-18080-exec-3] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:36:24","header":"深入浅出，推荐","id":25,"images":"xxx","itemId":"item-1","orderId":"o22","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:36:24","header":"深入浅出，推荐","id":25,"images":"xxx","itemId":"item-1","orderId":"o22","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]
+2021-04-20 09:32:35.358 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Cannot deserialize; nested exception is org.springframework.core.serializer.support.SerializationFailedException: Failed to deserialize payload. Is the byte array a result of corresponding serialization for DefaultDeserializer?; nested exception is java.io.StreamCorruptedException: invalid stream header: 7B22636F
+2021-04-20 09:34:15.332 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+2021-04-20 09:35:55.147 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+2021-04-20 09:45:51.072 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Could not read JSON: Unexpected character ('@' (code 64)): Expected space separating root-level values
+ at [Source: (byte[])"123@@@"; line: 1, column: 5]; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('@' (code 64)): Expected space separating root-level values
+ at [Source: (byte[])"123@@@"; line: 1, column: 5]
+2021-04-20 09:47:13.519 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Could not read JSON: Unexpected character ('a' (code 97)): Expected space separating root-level values
+ at [Source: (byte[])"123abc"; line: 1, column: 5]; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): Expected space separating root-level values
+ at [Source: (byte[])"123abc"; line: 1, column: 5]
+2021-04-20 09:49:48.535 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Could not read JSON: Unexpected character ('a' (code 97)): Expected space separating root-level values
+ at [Source: (byte[])"123abc"; line: 1, column: 5]; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('a' (code 97)): Expected space separating root-level values
+ at [Source: (byte[])"123abc"; line: 1, column: 5]
+2021-04-20 09:56:21.529 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:36:24","header":"深入浅出，推荐","id":25,"images":"xxx","itemId":"item-1","orderId":"o22","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:36:24","header":"深入浅出，推荐","id":25,"images":"xxx","itemId":"item-1","orderId":"o22","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]
+2021-04-20 09:59:09.294 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Optional int parameter 'start' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+2021-04-20 10:09:28.170 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Redis exception; nested exception is io.lettuce.core.RedisException: java.lang.IllegalStateException
+2021-04-20 10:10:37.422 ERROR --- [http-nio-18080-exec-3] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Redis exception; nested exception is io.lettuce.core.RedisException: java.lang.IllegalStateException
+2021-04-20 10:11:16.691 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Could not read JSON: Unexpected character ('s' (code 115)): Expected space separating root-level values
+ at [Source: (byte[])"22s"; line: 1, column: 4]; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('s' (code 115)): Expected space separating root-level values
+ at [Source: (byte[])"22s"; line: 1, column: 4]
+2021-04-20 10:12:40.921 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Redis exception; nested exception is io.lettuce.core.RedisException: java.lang.IllegalStateException
+2021-04-20 10:39:35.092 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_073f82652980584cf908b59a2f160fd207f4b9f8): @user_script:18: user_script:18: malformed pattern (missing ']')
+2021-04-20 10:40:45.644 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_86e5ac26d4445c557764e1be3a26e2005a6d4110): @user_script:18: user_script:18: malformed pattern (missing ']')
+2021-04-20 10:45:09.330 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_c8e0a45037b6fb48f75c6c5b0a6c0ecb743de1af): @user_script:18: user_script:18: bad argument #1 to 'find' (string expected, got nil)
+2021-04-20 10:48:02.693 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_4c238f6ad4a7699972e69465541dc37d4b2d5d49): @user_script:18: user_script:18: bad argument #1 to 'find' (string expected, got nil)
+2021-04-20 11:00:07.126 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error compiling script (new function): user_script:19: 'end' expected (to close 'if' at line 7) near 'if'
+2021-04-20 14:57:04.294 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Unknown redis exception; nested exception is java.lang.IllegalArgumentException: Values must not be empty
+2021-04-20 15:29:32.101 ERROR --- [http-nio-18080-exec-5] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_6504d4e812230483a2b2cc7e383b558673155cf1): @user_script:16: user_script:16: bad argument #1 to 'decode' (string expected, got table) by:item-1,0,9
+2021-04-20 15:29:35.705 ERROR --- [http-nio-18080-exec-6] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_6504d4e812230483a2b2cc7e383b558673155cf1): @user_script:16: user_script:16: bad argument #1 to 'decode' (string expected, got table) by:item-1,0,9
+2021-04-20 15:29:37.714 ERROR --- [http-nio-18080-exec-7] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_6504d4e812230483a2b2cc7e383b558673155cf1): @user_script:16: user_script:16: bad argument #1 to 'decode' (string expected, got table) by:item-1,0,9
+2021-04-20 15:46:11.170 ERROR --- [http-nio-18080-exec-10] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Redis exception; nested exception is io.lettuce.core.RedisException: java.net.SocketException: Connection reset by:item-1,0,9
+2021-04-20 15:46:19.985 ERROR --- [http-nio-18080-exec-1] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1] by:item-1,0,9
+2021-04-20 15:46:21.714 ERROR --- [http-nio-18080-exec-2] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1] by:item-1,0,9
+2021-04-20 15:46:22.394 ERROR --- [http-nio-18080-exec-3] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1] by:item-1,0,9
+2021-04-20 15:46:22.950 ERROR --- [http-nio-18080-exec-4] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1] by:item-1,0,9
+2021-04-20 15:51:35.354 ERROR --- [http-nio-18080-exec-2] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1] by:item-1,0,9
+2021-04-20 15:51:36.565 ERROR --- [http-nio-18080-exec-3] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1] by:item-1,0,9
+2021-04-20 15:51:37.275 ERROR --- [http-nio-18080-exec-4] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1] by:item-1,0,9
+2021-04-20 15:52:04.526 ERROR --- [http-nio-18080-exec-5] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1] by:item-1,0,9
+2021-04-20 15:52:12.485 ERROR --- [http-nio-18080-exec-6] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1] by:item-1,0,9
+2021-04-20 15:52:23.754 ERROR --- [http-nio-18080-exec-7] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1] by:item-1,0,9
+2021-04-20 15:52:53.216 ERROR --- [http-nio-18080-exec-8] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1] by:item-1,0,9
+2021-04-20 15:55:19.965 ERROR --- [http-nio-18080-exec-9] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Could not read JSON: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1]; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Unexpected token (START_OBJECT), expected START_ARRAY: need JSON Array to contain As.WRAPPER_ARRAY type information for class java.lang.Object
+ at [Source: (byte[])"{"consumerId":1,"content":"强烈推荐，把复杂的算法讲得很清楚，学习一个新算法，很受用。学完了再看其他数据再一步深入。","createTime":"2021-04-19 10:18:54","header":"深入浅出，推荐","id":12,"images":"xxx","itemId":"item-1","orderId":"o11","score":100,"userface":"face","username":"name"}"; line: 1, column: 1] by:item-1,0,9
+2021-04-20 16:06:00.176 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - NPE error:Cannot invoke "Object.toString()" because the return value of "org.springframework.data.redis.core.ListOperations.index(Object, long)" is null
+2021-04-20 16:34:17.694 ERROR --- [http-nio-18080-exec-2] com.zaxxer.hikari.pool.HikariPool - DatebookHikariCP - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:612)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:669)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:700)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:712)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:768)
+	at com.sunday.remark.repository.RemarkRepository.listRemarks(RemarkRepository.java:75)
+	at com.sunday.remark.repository.RemarkRepository$$FastClassBySpringCGLIB$$ef14a871.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.sunday.remark.repository.RemarkRepository$$EnhancerBySpringCGLIB$$43e68979.listRemarks(<generated>)
+	at com.sunday.remark.controller.TestController.test(TestController.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 80 common frames omitted
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 83 common frames omitted
+2021-04-20 16:34:17.700 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2021-04-20 17:18:59.014 ERROR --- [http-nio-18080-exec-26] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.014 ERROR --- [http-nio-18080-exec-61] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.014 ERROR --- [http-nio-18080-exec-78] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.015 ERROR --- [http-nio-18080-exec-56] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.014 ERROR --- [http-nio-18080-exec-93] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.015 ERROR --- [http-nio-18080-exec-14] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.039 ERROR --- [http-nio-18080-exec-59] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.039 ERROR --- [http-nio-18080-exec-47] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.040 ERROR --- [http-nio-18080-exec-90] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.041 ERROR --- [http-nio-18080-exec-30] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.043 ERROR --- [http-nio-18080-exec-37] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.043 ERROR --- [http-nio-18080-exec-67] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.071 ERROR --- [http-nio-18080-exec-82] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.091 ERROR --- [http-nio-18080-exec-32] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.114 ERROR --- [http-nio-18080-exec-23] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.114 ERROR --- [http-nio-18080-exec-80] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.116 ERROR --- [http-nio-18080-exec-77] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.114 ERROR --- [http-nio-18080-exec-29] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.120 ERROR --- [http-nio-18080-exec-85] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.134 ERROR --- [http-nio-18080-exec-13] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.154 ERROR --- [http-nio-18080-exec-22] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.156 ERROR --- [http-nio-18080-exec-45] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.166 ERROR --- [http-nio-18080-exec-24] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.166 ERROR --- [http-nio-18080-exec-97] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.169 ERROR --- [http-nio-18080-exec-8] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.198 ERROR --- [http-nio-18080-exec-6] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.202 ERROR --- [http-nio-18080-exec-25] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.202 ERROR --- [http-nio-18080-exec-74] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.214 ERROR --- [http-nio-18080-exec-10] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.209 ERROR --- [http-nio-18080-exec-7] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.218 ERROR --- [http-nio-18080-exec-76] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.218 ERROR --- [http-nio-18080-exec-15] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.241 ERROR --- [http-nio-18080-exec-99] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.245 ERROR --- [http-nio-18080-exec-19] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.250 ERROR --- [http-nio-18080-exec-21] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.270 ERROR --- [http-nio-18080-exec-68] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.279 ERROR --- [http-nio-18080-exec-83] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.290 ERROR --- [http-nio-18080-exec-39] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.294 ERROR --- [http-nio-18080-exec-60] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.303 ERROR --- [http-nio-18080-exec-69] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.303 ERROR --- [http-nio-18080-exec-55] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.305 ERROR --- [http-nio-18080-exec-95] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.309 ERROR --- [http-nio-18080-exec-18] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.325 ERROR --- [http-nio-18080-exec-91] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.342 ERROR --- [http-nio-18080-exec-20] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.347 ERROR --- [http-nio-18080-exec-100] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.353 ERROR --- [http-nio-18080-exec-92] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.354 ERROR --- [http-nio-18080-exec-64] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.363 ERROR --- [http-nio-18080-exec-75] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.363 ERROR --- [http-nio-18080-exec-52] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.365 ERROR --- [http-nio-18080-exec-40] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.366 ERROR --- [http-nio-18080-exec-44] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.367 ERROR --- [http-nio-18080-exec-63] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.374 ERROR --- [http-nio-18080-exec-17] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.374 ERROR --- [http-nio-18080-exec-73] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.397 ERROR --- [http-nio-18080-exec-31] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.411 ERROR --- [http-nio-18080-exec-65] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.415 ERROR --- [http-nio-18080-exec-46] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.442 ERROR --- [http-nio-18080-exec-71] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.453 ERROR --- [http-nio-18080-exec-12] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.453 ERROR --- [http-nio-18080-exec-53] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.468 ERROR --- [http-nio-18080-exec-48] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.469 ERROR --- [http-nio-18080-exec-2] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.470 ERROR --- [http-nio-18080-exec-51] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.469 ERROR --- [http-nio-18080-exec-28] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.479 ERROR --- [http-nio-18080-exec-43] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.479 ERROR --- [http-nio-18080-exec-1] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.481 ERROR --- [http-nio-18080-exec-41] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.488 ERROR --- [http-nio-18080-exec-96] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.498 ERROR --- [http-nio-18080-exec-42] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.499 ERROR --- [http-nio-18080-exec-3] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.508 ERROR --- [http-nio-18080-exec-36] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.508 ERROR --- [http-nio-18080-exec-4] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.509 ERROR --- [http-nio-18080-exec-50] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.510 ERROR --- [http-nio-18080-exec-54] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.513 ERROR --- [http-nio-18080-exec-66] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.513 ERROR --- [http-nio-18080-exec-57] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.536 ERROR --- [http-nio-18080-exec-79] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.535 ERROR --- [http-nio-18080-exec-87] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.548 ERROR --- [http-nio-18080-exec-33] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.550 ERROR --- [http-nio-18080-exec-34] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.551 ERROR --- [http-nio-18080-exec-70] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.548 ERROR --- [http-nio-18080-exec-38] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.552 ERROR --- [http-nio-18080-exec-9] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.557 ERROR --- [http-nio-18080-exec-58] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.557 ERROR --- [http-nio-18080-exec-11] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.559 ERROR --- [http-nio-18080-exec-94] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.570 ERROR --- [http-nio-18080-exec-27] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.570 ERROR --- [http-nio-18080-exec-5] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.578 ERROR --- [http-nio-18080-exec-35] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.578 ERROR --- [http-nio-18080-exec-49] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.599 ERROR --- [http-nio-18080-exec-84] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.602 ERROR --- [http-nio-18080-exec-86] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.607 ERROR --- [http-nio-18080-exec-89] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:18:59.608 ERROR --- [http-nio-18080-exec-72] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2021-04-20 17:19:56.765 ERROR --- [http-nio-18080-exec-93] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_6504d4e812230483a2b2cc7e383b558673155cf1): @user_script:16: user_script:16: bad argument #1 to 'decode' (string expected, got table) by:item-1,0,9
+2021-04-20 17:19:58.842 ERROR --- [http-nio-18080-exec-56] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_6504d4e812230483a2b2cc7e383b558673155cf1): @user_script:16: user_script:16: bad argument #1 to 'decode' (string expected, got table) by:item-1,0,9
+2021-04-20 17:22:33.884 ERROR --- [http-nio-18080-exec-49] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_6504d4e812230483a2b2cc7e383b558673155cf1): @user_script:16: user_script:16: bad argument #1 to 'decode' (string expected, got table) by:item-1,0,9
+2021-04-20 17:23:56.794 ERROR --- [http-nio-18080-exec-72] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Failed to obtain JDBC Connection; nested exception is java.sql.SQLTransientConnectionException: DatebookHikariCP - Connection is not available, request timed out after 5027ms.
+2021-04-20 17:25:37.859 ERROR --- [http-nio-18080-exec-3] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_6504d4e812230483a2b2cc7e383b558673155cf1): @user_script:16: user_script:16: bad argument #1 to 'decode' (string expected, got table) by:item-1,0,9
+2021-04-20 17:25:39.486 ERROR --- [http-nio-18080-exec-4] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_6504d4e812230483a2b2cc7e383b558673155cf1): @user_script:16: user_script:16: bad argument #1 to 'decode' (string expected, got table) by:item-1,0,9
+2021-04-20 17:36:19.887 ERROR --- [http-nio-18080-exec-9] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_6504d4e812230483a2b2cc7e383b558673155cf1): @user_script:16: user_script:16: bad argument #1 to 'decode' (string expected, got table) by:item-1,1,10
+2021-04-20 17:36:23.239 ERROR --- [http-nio-18080-exec-5] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR Error running script (call to f_6504d4e812230483a2b2cc7e383b558673155cf1): @user_script:16: user_script:16: bad argument #1 to 'decode' (string expected, got table) by:item-1,1,10
+2021-04-20 17:53:38.987 ERROR --- [http-nio-18080-exec-5] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Redis exception; nested exception is io.lettuce.core.RedisException: java.net.SocketException: Connection reset by:item-1,0,9
+2021-04-20 17:53:38.999 ERROR --- [http-nio-18080-exec-5] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:java.io.IOException: 你的主机中的软件中止了一个已建立的连接。

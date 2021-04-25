@@ -1,0 +1,153 @@
+2021-04-13 22:52:13.513 com.sunday.remark.service.VoteServiceTest - Starting VoteServiceTest on LAPTOP-0K66VC5Q with PID 11188 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-13 22:52:13.524 com.sunday.remark.service.VoteServiceTest - No active profile set, falling back to default profiles: default
+2021-04-13 22:52:15.956 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 22:52:15.968 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 22:52:16.262 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 234ms. Found 0 Redis repository interfaces.
+2021-04-13 22:52:18.307 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 22:52:18.975 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 22:52:21.983 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 22:52:23.390 com.sunday.remark.service.VoteServiceTest - Started VoteServiceTest in 10.976 seconds (JVM running for 14.357)
+2021-04-13 22:52:27.973 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 22:52:28.167 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-13 22:52:28.171 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-13 22:53:16.097 com.sunday.remark.service.VoteServiceTest - Starting VoteServiceTest on LAPTOP-0K66VC5Q with PID 13508 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-13 22:53:16.102 com.sunday.remark.service.VoteServiceTest - No active profile set, falling back to default profiles: default
+2021-04-13 22:53:18.334 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 22:53:18.345 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 22:53:18.609 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 217ms. Found 0 Redis repository interfaces.
+2021-04-13 22:53:20.073 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 22:53:20.635 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 22:53:23.286 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 22:53:24.462 com.sunday.remark.service.VoteServiceTest - Started VoteServiceTest in 9.327 seconds (JVM running for 12.123)
+2021-04-13 22:53:26.793 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 22:53:26.936 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-13 22:53:26.940 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-13 22:53:58.519 com.sunday.remark.service.VoteServiceTest - Starting VoteServiceTest on LAPTOP-0K66VC5Q with PID 15296 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-13 22:53:58.522 com.sunday.remark.service.VoteServiceTest - No active profile set, falling back to default profiles: default
+2021-04-13 22:54:00.490 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 22:54:00.518 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 22:54:00.876 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 288ms. Found 0 Redis repository interfaces.
+2021-04-13 22:54:02.614 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 22:54:03.172 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 22:54:05.660 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 22:54:06.834 com.sunday.remark.service.VoteServiceTest - Started VoteServiceTest in 9.285 seconds (JVM running for 12.218)
+2021-04-13 22:54:09.475 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 22:54:09.620 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-13 22:54:09.625 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-13 23:29:21.379 com.sunday.remark.service.VoteServiceTest - Starting VoteServiceTest on LAPTOP-0K66VC5Q with PID 3216 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-13 23:29:21.382 com.sunday.remark.service.VoteServiceTest - No active profile set, falling back to default profiles: default
+2021-04-13 23:29:23.675 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 23:29:23.689 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 23:29:24.021 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 274ms. Found 0 Redis repository interfaces.
+2021-04-13 23:29:26.426 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 23:29:27.050 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 23:29:28.545 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:29:29.719 com.sunday.remark.service.VoteServiceTest - Started VoteServiceTest in 9.315 seconds (JVM running for 12.837)
+2021-04-13 23:29:31.118 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:29:31.120 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-13 23:29:31.125 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-13 23:32:34.101 com.sunday.remark.service.VoteServiceTest - Starting VoteServiceTest on LAPTOP-0K66VC5Q with PID 2072 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-13 23:32:34.105 com.sunday.remark.service.VoteServiceTest - No active profile set, falling back to default profiles: default
+2021-04-13 23:32:36.251 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 23:32:36.259 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 23:32:36.553 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 253ms. Found 0 Redis repository interfaces.
+2021-04-13 23:32:39.629 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 23:32:40.351 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 23:32:42.112 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:32:43.483 com.sunday.remark.service.VoteServiceTest - Started VoteServiceTest in 10.619 seconds (JVM running for 14.05)
+2021-04-13 23:33:52.382 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:33:52.385 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-13 23:33:52.391 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-13 23:34:14.149 com.sunday.remark.service.VoteServiceTest - Starting VoteServiceTest on LAPTOP-0K66VC5Q with PID 11704 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-13 23:34:14.153 com.sunday.remark.service.VoteServiceTest - No active profile set, falling back to default profiles: default
+2021-04-13 23:34:16.304 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 23:34:16.317 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 23:34:16.522 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 142ms. Found 0 Redis repository interfaces.
+2021-04-13 23:34:19.474 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 23:34:20.234 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 23:34:21.762 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:34:22.964 com.sunday.remark.service.VoteServiceTest - Started VoteServiceTest in 9.788 seconds (JVM running for 12.644)
+2021-04-13 23:34:24.413 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:34:24.416 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-13 23:34:24.421 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-13 23:38:04.412 com.sunday.remark.service.VoteServiceTest - Starting VoteServiceTest on LAPTOP-0K66VC5Q with PID 8312 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-13 23:38:04.415 com.sunday.remark.service.VoteServiceTest - No active profile set, falling back to default profiles: default
+2021-04-13 23:38:06.775 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 23:38:06.787 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 23:38:07.002 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 157ms. Found 0 Redis repository interfaces.
+2021-04-13 23:38:09.689 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 23:38:10.264 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 23:38:11.882 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:38:13.081 com.sunday.remark.service.VoteServiceTest - Started VoteServiceTest in 9.67 seconds (JVM running for 12.677)
+2021-04-13 23:38:14.432 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:38:14.435 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-13 23:38:14.441 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-13 23:39:19.463 com.sunday.remark.service.VoteServiceTest - Starting VoteServiceTest on LAPTOP-0K66VC5Q with PID 3576 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-13 23:39:19.469 com.sunday.remark.service.VoteServiceTest - No active profile set, falling back to default profiles: default
+2021-04-13 23:39:21.942 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 23:39:21.953 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 23:39:22.204 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 197ms. Found 0 Redis repository interfaces.
+2021-04-13 23:39:24.604 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 23:39:25.347 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 23:39:27.000 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:39:28.187 com.sunday.remark.service.VoteServiceTest - Started VoteServiceTest in 9.843 seconds (JVM running for 12.767)
+2021-04-13 23:39:29.408 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:39:29.410 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-13 23:39:29.415 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-13 23:41:33.617 com.sunday.remark.service.VoteServiceTest - Starting VoteServiceTest on LAPTOP-0K66VC5Q with PID 8456 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-13 23:41:33.619 com.sunday.remark.service.VoteServiceTest - No active profile set, falling back to default profiles: default
+2021-04-13 23:41:35.658 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 23:41:35.667 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 23:41:35.909 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 197ms. Found 0 Redis repository interfaces.
+2021-04-13 23:41:38.318 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 23:41:38.898 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 23:41:40.420 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:41:41.616 com.sunday.remark.service.VoteServiceTest - Started VoteServiceTest in 9.111 seconds (JVM running for 12.396)
+2021-04-13 23:41:44.008 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:41:44.009 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-13 23:41:44.014 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-13 23:44:28.671 com.sunday.remark.service.VoteServiceTest - Starting VoteServiceTest on LAPTOP-0K66VC5Q with PID 5252 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-13 23:44:28.674 com.sunday.remark.service.VoteServiceTest - No active profile set, falling back to default profiles: default
+2021-04-13 23:44:30.811 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 23:44:30.821 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 23:44:31.097 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 224ms. Found 0 Redis repository interfaces.
+2021-04-13 23:44:33.648 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 23:44:34.184 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 23:44:35.701 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:44:36.878 com.sunday.remark.service.VoteServiceTest - Started VoteServiceTest in 9.522 seconds (JVM running for 12.544)
+2021-04-13 23:44:39.180 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:44:39.182 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-13 23:44:39.188 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-13 23:47:55.711 com.sunday.remark.service.VoteServiceTest - Starting VoteServiceTest on LAPTOP-0K66VC5Q with PID 14168 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-13 23:47:55.715 com.sunday.remark.service.VoteServiceTest - No active profile set, falling back to default profiles: default
+2021-04-13 23:47:57.854 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 23:47:57.866 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 23:47:58.109 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 190ms. Found 0 Redis repository interfaces.
+2021-04-13 23:48:00.501 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 23:48:01.221 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 23:48:02.773 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:48:03.975 com.sunday.remark.service.VoteServiceTest - Started VoteServiceTest in 9.348 seconds (JVM running for 12.424)
+2021-04-13 23:48:06.885 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:48:06.888 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-13 23:48:06.895 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-13 23:49:07.691 com.sunday.remark.service.VoteServiceTest - Starting VoteServiceTest on LAPTOP-0K66VC5Q with PID 3256 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-13 23:49:07.694 com.sunday.remark.service.VoteServiceTest - No active profile set, falling back to default profiles: default
+2021-04-13 23:49:10.126 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-13 23:49:10.141 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-13 23:49:10.375 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 172ms. Found 0 Redis repository interfaces.
+2021-04-13 23:49:13.014 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-13 23:49:13.740 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-13 23:49:15.359 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-13 23:49:16.526 com.sunday.remark.service.VoteServiceTest - Started VoteServiceTest in 9.899 seconds (JVM running for 13.583)
+2021-04-13 23:49:18.750 o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sunday.remark.repository.RemarkRepositoryTest], using SpringBootContextLoader
+2021-04-13 23:49:18.753 o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sunday.remark.repository.RemarkRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-13 23:49:18.760 o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-04-13 23:49:18.761 o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6a07e6ca, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@726ef6aa, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@6104691c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@195cbf5e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4cb82b09, org.springframework.test.context.transaction.TransactionalTestExecutionListener@49665f92, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@b68932b, org.springframework.test.context.event.EventPublishingTestExecutionListener@77b27b57, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7adff6cb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@13ebccd, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e80960a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2a0c244e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2f60e66a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5bccef9f]
+2021-04-13 23:49:19.197 o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sunday.remark.repository.RedisRepositoryTest], using SpringBootContextLoader
+2021-04-13 23:49:19.202 o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sunday.remark.repository.RedisRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-13 23:49:19.211 o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-04-13 23:49:19.213 o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4fc71437, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@75c15f76, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@631678e6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1344f7fe, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64d53f0d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1b10f60e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b916cc2, org.springframework.test.context.event.EventPublishingTestExecutionListener@7f5e9949, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@323eecf8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2e02cc37, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6e355249, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@652a1a17, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@20b67366, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@186d6033]
+2021-04-13 23:49:37.380 o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sunday.remark.service.RemarkServiceTest], using SpringBootContextLoader
+2021-04-13 23:49:37.384 o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sunday.remark.service.RemarkServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-13 23:49:37.394 o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-04-13 23:49:37.396 o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@23263ba, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ca6bd01, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5acd7d1c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6b52a40, org.springframework.test.context.support.DirtiesContextTestExecutionListener@178ba69f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1e4c4fda, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2f58f492, org.springframework.test.context.event.EventPublishingTestExecutionListener@903c13, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4ae5ddc0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@36ab69d9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5ebfe7fa, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5f4e389a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3ba1f56e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@56a9b662]

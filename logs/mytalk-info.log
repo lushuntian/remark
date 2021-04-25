@@ -1,0 +1,878 @@
+2021-04-23 11:23:21.180 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 10516 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 11:23:21.192 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 11:23:22.257 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 11:23:22.257 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 11:23:22.357 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71ms. Found 0 Redis repository interfaces.
+2021-04-23 11:23:23.037 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 11:23:23.039 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 11:23:23.567 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 11:23:23.583 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 11:23:23.583 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 11:23:23.583 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 11:23:23.767 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 11:23:23.767 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2457 ms
+2021-04-23 11:23:25.425 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 11:23:25.519 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 11:23:26.220 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 11:23:26.227 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 11:23:26.619 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.568 seconds (JVM running for 7.442)
+2021-04-23 11:24:36.566 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 11:24:36.567 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 11:24:36.576 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-04-23 11:29:58.527 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 21556 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 11:29:58.530 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 11:29:59.494 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 11:29:59.500 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 11:29:59.605 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78ms. Found 0 Redis repository interfaces.
+2021-04-23 11:30:00.326 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 11:30:00.330 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 11:30:00.852 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 11:30:00.864 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 11:30:00.864 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 11:30:00.865 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 11:30:01.056 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 11:30:01.057 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2472 ms
+2021-04-23 11:30:02.692 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 11:30:02.764 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 11:30:03.441 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 11:30:03.462 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 11:30:03.820 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.276 seconds (JVM running for 6.979)
+2021-04-23 11:31:00.234 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 11:31:00.235 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 11:31:00.244 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-04-23 11:54:46.921 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 23496 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 11:54:46.936 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 11:54:47.966 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 11:54:47.974 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 11:54:48.136 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 131ms. Found 0 Redis repository interfaces.
+2021-04-23 11:54:48.875 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 11:54:48.875 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 11:54:49.394 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 11:54:49.407 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 11:54:49.407 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 11:54:49.408 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 11:54:49.611 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 11:54:49.612 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2620 ms
+2021-04-23 11:54:51.368 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 11:54:51.451 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 11:54:52.137 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 11:54:52.153 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 11:54:52.534 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.619 seconds (JVM running for 7.412)
+2021-04-23 11:54:57.106 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 11:54:57.106 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 11:54:57.119 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2021-04-23 11:54:58.068 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 11:54:58.783 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 11:58:56.173 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 17900 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 11:58:56.173 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 11:58:57.094 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 11:58:57.109 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 11:58:57.209 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 Redis repository interfaces.
+2021-04-23 11:58:57.811 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 11:58:57.827 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 11:58:58.334 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 11:58:58.365 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 11:58:58.365 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 11:58:58.365 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 11:58:58.551 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 11:58:58.551 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2321 ms
+2021-04-23 11:59:00.153 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 11:59:00.235 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 11:59:00.885 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 11:59:00.901 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 11:59:01.255 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.045 seconds (JVM running for 6.735)
+2021-04-23 11:59:04.224 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 11:59:04.225 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 11:59:04.232 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-04-23 11:59:05.143 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 11:59:05.844 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 14:46:04.344 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 22160 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 14:46:04.360 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 14:46:05.451 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 14:46:05.467 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 14:46:05.582 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87ms. Found 0 Redis repository interfaces.
+2021-04-23 14:46:06.300 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 14:46:06.300 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 14:46:06.886 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 14:46:06.901 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 14:46:06.901 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 14:46:06.901 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 14:46:07.117 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 14:46:07.117 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2694 ms
+2021-04-23 14:46:08.874 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 14:46:08.959 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 14:46:09.719 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 14:46:09.744 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 14:46:10.092 com.sunday.remark.RemarkApplication - Started RemarkApplication in 7.006 seconds (JVM running for 7.825)
+2021-04-23 14:46:13.943 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 14:46:13.943 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 14:46:13.951 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-04-23 14:46:14.872 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 14:46:15.591 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 14:47:35.151 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 18132 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 14:47:35.151 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 14:47:36.083 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 14:47:36.083 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 14:47:36.177 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72ms. Found 0 Redis repository interfaces.
+2021-04-23 14:47:36.784 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 14:47:36.784 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 14:47:37.254 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 14:47:37.269 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 14:47:37.269 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 14:47:37.269 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 14:47:37.438 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 14:47:37.438 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2239 ms
+2021-04-23 14:47:39.057 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 14:47:39.141 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 14:47:39.820 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 14:47:39.842 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 14:47:40.205 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.011 seconds (JVM running for 6.711)
+2021-04-23 14:47:47.672 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 14:47:47.672 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 14:47:47.680 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-04-23 14:47:48.689 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 14:47:49.628 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 14:48:18.598 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 6628 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 14:48:18.600 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 14:48:19.566 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 14:48:19.569 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 14:48:19.650 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71ms. Found 0 Redis repository interfaces.
+2021-04-23 14:48:20.304 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 14:48:20.320 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 14:48:20.836 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 14:48:20.852 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 14:48:20.852 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 14:48:20.852 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 14:48:21.037 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 14:48:21.037 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2373 ms
+2021-04-23 14:48:22.762 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 14:48:22.843 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 14:48:23.513 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 14:48:23.529 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 14:48:23.883 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.437 seconds (JVM running for 7.241)
+2021-04-23 14:48:43.878 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 14:48:43.879 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 14:48:43.887 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-23 14:48:44.865 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 14:48:45.856 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 14:50:06.997 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 22596 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 14:50:06.997 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 14:50:08.071 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 14:50:08.071 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 14:50:08.171 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 Redis repository interfaces.
+2021-04-23 14:50:08.897 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 14:50:08.897 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 14:50:09.436 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 14:50:09.451 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 14:50:09.451 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 14:50:09.451 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 14:50:09.658 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 14:50:09.658 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2604 ms
+2021-04-23 14:50:11.538 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 14:50:11.618 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 14:50:12.377 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 14:50:12.409 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 14:50:12.756 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.736 seconds (JVM running for 7.928)
+2021-04-23 14:50:15.731 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 14:50:15.731 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 14:50:15.739 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-23 14:50:16.771 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 14:50:17.836 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 14:55:20.409 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 14:55:20.538 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 14:55:20.543 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 14:55:47.999 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 16508 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 14:55:47.999 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 14:55:48.916 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 14:55:48.916 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 14:55:49.016 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 0 Redis repository interfaces.
+2021-04-23 14:55:49.633 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 14:55:49.633 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 14:55:50.134 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 14:55:50.134 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 14:55:50.134 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 14:55:50.134 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 14:55:50.326 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 14:55:50.326 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2280 ms
+2021-04-23 14:55:51.936 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 14:55:52.005 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 14:55:52.753 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 14:55:52.768 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 14:55:53.107 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.067 seconds (JVM running for 6.704)
+2021-04-23 14:56:01.957 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 14:56:01.957 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 14:56:01.965 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-04-23 14:56:02.880 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 14:56:03.601 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 14:57:45.596 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 9940 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 14:57:45.599 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 14:57:46.720 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 14:57:46.726 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 14:57:46.831 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82ms. Found 0 Redis repository interfaces.
+2021-04-23 14:57:47.522 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 14:57:47.528 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 14:57:48.052 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 14:57:48.068 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 14:57:48.068 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 14:57:48.068 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 14:57:48.274 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 14:57:48.275 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2607 ms
+2021-04-23 14:57:50.023 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 14:57:50.097 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 14:57:50.806 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 14:57:50.829 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 14:57:51.200 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.761 seconds (JVM running for 7.622)
+2021-04-23 14:58:10.476 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 14:58:10.477 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 14:58:10.487 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2021-04-23 14:59:56.781 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:02:35.060 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 7488 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:02:35.064 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:02:36.088 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:02:36.094 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:02:36.187 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72ms. Found 0 Redis repository interfaces.
+2021-04-23 15:02:36.876 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:02:36.881 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:02:37.426 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:02:37.441 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:02:37.441 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:02:37.441 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:02:37.668 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:02:37.668 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2544 ms
+2021-04-23 15:02:39.422 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:02:39.504 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:02:40.205 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:02:40.228 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:02:40.561 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.576 seconds (JVM running for 7.362)
+2021-04-23 15:02:52.337 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:02:52.337 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:02:52.346 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-23 15:03:20.708 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 15:03:21.427 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 15:04:58.994 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:04:59.124 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 15:04:59.130 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 15:06:06.897 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 876 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:06:06.897 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:06:08.047 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:06:08.051 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:06:08.148 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77ms. Found 0 Redis repository interfaces.
+2021-04-23 15:06:08.846 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:06:08.851 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:06:09.411 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:06:09.433 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:06:09.434 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:06:09.434 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:06:09.618 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:06:09.618 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2644 ms
+2021-04-23 15:06:11.454 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:06:11.533 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:06:12.242 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:06:12.270 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:06:12.612 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.831 seconds (JVM running for 7.758)
+2021-04-23 15:06:17.126 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:06:17.126 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:06:17.138 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2021-04-23 15:07:05.867 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:07:28.575 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 22700 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:07:28.578 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:07:29.596 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:07:29.600 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:07:29.694 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 0 Redis repository interfaces.
+2021-04-23 15:07:30.358 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:07:30.364 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:07:30.910 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:07:30.928 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:07:30.928 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:07:30.928 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:07:31.195 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:07:31.195 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2559 ms
+2021-04-23 15:07:33.009 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:07:33.100 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:07:33.857 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:07:33.883 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:07:34.240 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.72 seconds (JVM running for 7.538)
+2021-04-23 15:07:38.207 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:07:38.208 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:07:38.216 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-23 15:08:54.067 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:15:11.063 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 21784 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:15:11.063 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:15:12.110 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:15:12.110 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:15:12.211 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 Redis repository interfaces.
+2021-04-23 15:15:12.911 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:15:12.927 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:15:13.497 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:15:13.529 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:15:13.529 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:15:13.529 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:15:13.729 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:15:13.729 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2602 ms
+2021-04-23 15:15:15.647 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:15:15.923 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:15:16.792 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:15:16.822 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:15:17.182 com.sunday.remark.RemarkApplication - Started RemarkApplication in 7.167 seconds (JVM running for 7.99)
+2021-04-23 15:15:21.191 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:15:21.191 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:15:21.202 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2021-04-23 15:15:22.316 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 15:15:23.249 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 15:24:29.768 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:24:29.896 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 15:24:29.899 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 15:24:35.390 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 14188 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:24:35.398 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:24:36.403 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:24:36.403 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:24:36.498 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72ms. Found 0 Redis repository interfaces.
+2021-04-23 15:24:37.246 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:24:37.246 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:24:37.848 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:24:37.870 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:24:37.870 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:24:37.870 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:24:38.070 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:24:38.070 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2619 ms
+2021-04-23 15:24:40.406 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:24:40.490 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:24:41.201 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:24:41.233 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:24:41.590 com.sunday.remark.RemarkApplication - Started RemarkApplication in 7.273 seconds (JVM running for 8.1)
+2021-04-23 15:24:48.255 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:24:48.255 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:24:48.264 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-23 15:24:49.226 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 15:24:50.068 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 15:27:14.160 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:27:14.304 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 15:27:14.308 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 15:27:35.791 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 10552 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:27:35.791 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:27:36.887 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:27:36.887 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:27:37.009 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83ms. Found 0 Redis repository interfaces.
+2021-04-23 15:27:37.720 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:27:37.720 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:27:38.337 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:27:38.337 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:27:38.337 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:27:38.337 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:27:38.537 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:27:38.537 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2665 ms
+2021-04-23 15:27:40.391 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:27:40.469 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:27:41.177 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:27:41.208 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:27:41.548 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.927 seconds (JVM running for 7.761)
+2021-04-23 15:27:59.074 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:27:59.074 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:27:59.084 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-04-23 15:28:00.188 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 15:28:00.944 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 15:32:17.034 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:32:17.158 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 15:32:17.161 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 15:32:37.426 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 18028 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:32:37.426 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:32:38.475 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:32:38.475 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:32:38.584 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81ms. Found 0 Redis repository interfaces.
+2021-04-23 15:32:39.255 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:32:39.265 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:32:39.829 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:32:39.844 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:32:39.860 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:32:39.860 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:32:40.060 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:32:40.060 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2565 ms
+2021-04-23 15:32:41.784 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:32:41.869 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:32:42.571 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:32:42.605 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:32:42.934 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.552 seconds (JVM running for 7.355)
+2021-04-23 15:32:49.906 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:32:49.907 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:32:49.917 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2021-04-23 15:35:52.815 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:37:16.027 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 9380 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:37:16.027 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:37:17.026 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:37:17.026 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:37:17.126 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77ms. Found 0 Redis repository interfaces.
+2021-04-23 15:37:17.838 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:37:17.838 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:37:18.366 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:37:18.398 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:37:18.398 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:37:18.398 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:37:18.582 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:37:18.582 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2488 ms
+2021-04-23 15:37:20.388 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:37:20.465 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:37:21.177 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:37:21.205 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:37:21.593 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.654 seconds (JVM running for 7.46)
+2021-04-23 15:37:30.254 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:37:30.254 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:37:30.262 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-23 15:37:32.223 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 15:37:32.926 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 15:38:01.515 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:38:01.661 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 15:38:01.665 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 15:38:14.311 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 9088 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:38:14.320 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:38:15.364 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:38:15.364 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:38:15.448 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68ms. Found 0 Redis repository interfaces.
+2021-04-23 15:38:16.138 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:38:16.150 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:38:16.715 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:38:16.730 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:38:16.730 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:38:16.730 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:38:16.899 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:38:16.899 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2521 ms
+2021-04-23 15:38:18.731 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:38:18.801 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:38:19.481 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:38:19.512 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:38:19.855 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.651 seconds (JVM running for 7.419)
+2021-04-23 15:38:37.049 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:38:37.050 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:38:37.060 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2021-04-23 15:38:38.154 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 15:38:39.051 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 15:39:54.503 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:39:54.636 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 15:39:54.639 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 15:40:05.322 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 1164 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:40:05.322 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:40:06.307 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:40:06.313 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:40:06.407 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 Redis repository interfaces.
+2021-04-23 15:40:07.115 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:40:07.115 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:40:07.678 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:40:07.693 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:40:07.693 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:40:07.693 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:40:07.894 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:40:07.894 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2510 ms
+2021-04-23 15:40:09.676 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:40:09.765 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:40:10.467 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:40:10.482 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:40:10.820 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.549 seconds (JVM running for 7.363)
+2021-04-23 15:40:14.787 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:40:14.788 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:40:14.796 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-23 15:40:15.813 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 15:40:16.706 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 15:42:09.561 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:42:09.703 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 15:42:09.708 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 15:42:24.470 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 9500 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:42:24.470 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:42:25.443 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:42:25.459 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:42:25.543 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 0 Redis repository interfaces.
+2021-04-23 15:42:26.229 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:42:26.246 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:42:26.799 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:42:26.815 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:42:26.815 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:42:26.815 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:42:27.021 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:42:27.021 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2504 ms
+2021-04-23 15:42:28.807 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:42:28.891 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:42:29.639 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:42:29.670 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:42:30.061 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.63 seconds (JVM running for 7.413)
+2021-04-23 15:42:37.037 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:42:37.038 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:42:37.047 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-04-23 15:42:38.106 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 15:42:39.822 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 15:44:36.541 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:44:36.671 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 15:44:36.674 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 15:45:35.637 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 15336 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:45:35.637 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:45:36.784 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:45:36.784 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:45:36.885 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67ms. Found 0 Redis repository interfaces.
+2021-04-23 15:45:37.555 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:45:37.555 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:45:38.140 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:45:38.156 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:45:38.156 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:45:38.156 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:45:38.356 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:45:38.356 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2660 ms
+2021-04-23 15:45:40.127 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:45:40.221 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:45:40.922 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:45:40.946 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:45:41.292 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.71 seconds (JVM running for 7.53)
+2021-04-23 15:45:56.649 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:45:56.649 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:45:56.659 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-04-23 15:45:57.674 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 15:45:58.466 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 15:46:53.287 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:46:53.420 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 15:46:53.426 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 15:47:11.938 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 10380 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:47:11.938 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:47:12.981 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:47:12.981 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:47:13.081 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 0 Redis repository interfaces.
+2021-04-23 15:47:13.766 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:47:13.766 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:47:14.336 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:47:14.352 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:47:14.352 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:47:14.352 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:47:14.559 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:47:14.559 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2546 ms
+2021-04-23 15:47:16.291 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:47:16.369 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:47:17.055 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:47:17.086 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:47:17.436 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.581 seconds (JVM running for 7.399)
+2021-04-23 15:48:16.656 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:48:16.657 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:48:16.669 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2021-04-23 15:48:36.927 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 15:48:37.641 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 15:48:54.865 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:48:54.991 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 15:48:54.994 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 15:50:12.560 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 9060 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 15:50:12.564 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 15:50:13.478 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 15:50:13.478 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 15:50:13.562 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65ms. Found 0 Redis repository interfaces.
+2021-04-23 15:50:14.163 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:50:14.179 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 15:50:14.711 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 15:50:14.727 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:50:14.727 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 15:50:14.727 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 15:50:14.927 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 15:50:14.927 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2314 ms
+2021-04-23 15:50:16.498 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 15:50:16.583 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 15:50:17.284 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 15:50:17.315 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 15:50:17.682 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.114 seconds (JVM running for 6.863)
+2021-04-23 15:50:20.953 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 15:50:20.953 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 15:50:20.962 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-23 15:53:38.860 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 15:53:39.413 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 16:00:06.743 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 19412 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:00:06.758 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:00:07.786 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:00:07.786 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:00:07.902 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82ms. Found 0 Redis repository interfaces.
+2021-04-23 16:00:08.534 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:00:08.534 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:00:09.051 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:00:09.051 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:00:09.051 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:00:09.051 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:00:09.252 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:00:09.252 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2440 ms
+2021-04-23 16:00:10.929 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:00:11.006 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:00:11.683 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:00:11.699 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:00:12.062 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.345 seconds (JVM running for 7.095)
+2021-04-23 16:00:40.585 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 16:00:40.586 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 16:00:40.594 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-23 16:00:41.398 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 16:00:42.134 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 16:05:56.030 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 15444 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:05:56.030 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:05:56.976 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:05:56.976 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:05:57.069 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71ms. Found 0 Redis repository interfaces.
+2021-04-23 16:05:57.724 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:05:57.724 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:05:58.272 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:05:58.278 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:05:58.278 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:05:58.278 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:05:58.479 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:05:58.479 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2398 ms
+2021-04-23 16:06:00.213 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:06:00.282 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:06:00.983 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:06:01.011 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:06:01.403 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.342 seconds (JVM running for 7.058)
+2021-04-23 16:06:10.213 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 16:06:10.213 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 16:06:10.221 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-23 16:06:11.225 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 16:06:12.035 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 16:12:01.873 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 12404 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:12:01.873 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:12:02.909 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:12:02.909 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:12:03.003 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 0 Redis repository interfaces.
+2021-04-23 16:12:03.610 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:12:03.626 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:12:04.121 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:12:04.133 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:12:04.133 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:12:04.133 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:12:04.323 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:12:04.323 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2384 ms
+2021-04-23 16:12:05.877 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:12:05.946 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:12:06.625 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:12:06.647 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:12:06.979 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.361 seconds (JVM running for 7.191)
+2021-04-23 16:12:14.196 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 16:12:14.196 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 16:12:14.203 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-04-23 16:12:15.175 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 16:12:15.974 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 16:12:55.204 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 15740 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:12:55.219 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:12:56.217 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:12:56.232 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:12:56.333 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78ms. Found 0 Redis repository interfaces.
+2021-04-23 16:12:57.019 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:12:57.034 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:12:57.573 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:12:57.604 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:12:57.604 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:12:57.604 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:12:57.789 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:12:57.789 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2520 ms
+2021-04-23 16:12:59.569 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:12:59.654 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:13:00.393 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:13:00.424 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:13:00.769 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.616 seconds (JVM running for 7.453)
+2021-04-23 16:13:04.117 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 16:13:04.118 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 16:13:04.128 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-04-23 16:13:05.221 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 16:13:06.337 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 16:13:32.443 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:13:32.571 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 16:13:32.575 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 16:13:44.380 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 9896 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:13:44.380 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:13:45.397 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:13:45.397 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:13:45.482 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69ms. Found 0 Redis repository interfaces.
+2021-04-23 16:13:46.145 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:13:46.161 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:13:46.731 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:13:46.762 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:13:46.762 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:13:46.762 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:13:46.952 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:13:46.952 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2513 ms
+2021-04-23 16:13:48.740 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:13:48.819 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:13:49.542 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:13:49.558 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:13:49.889 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.531 seconds (JVM running for 7.321)
+2021-04-23 16:13:55.232 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 16:13:55.233 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 16:13:55.241 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-23 16:13:56.355 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 16:13:57.402 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 16:14:21.193 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:14:21.323 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-23 16:14:21.331 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-23 16:14:26.355 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 5912 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:14:26.357 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:14:27.275 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:14:27.290 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:14:27.375 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74ms. Found 0 Redis repository interfaces.
+2021-04-23 16:14:27.992 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:14:28.007 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:14:28.493 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:14:28.493 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:14:28.493 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:14:28.493 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:14:28.709 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:14:28.709 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2303 ms
+2021-04-23 16:14:30.287 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:14:30.365 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:14:31.060 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:14:31.082 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:14:31.411 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.024 seconds (JVM running for 6.683)
+2021-04-23 16:14:34.238 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 16:14:34.239 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 16:14:34.246 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-04-23 16:14:35.187 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 16:14:35.941 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 16:15:50.348 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 13348 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:15:50.348 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:15:51.258 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:15:51.258 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:15:51.349 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68ms. Found 0 Redis repository interfaces.
+2021-04-23 16:15:51.944 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:15:51.944 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:15:52.445 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:15:52.461 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:15:52.461 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:15:52.461 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:15:52.661 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:15:52.661 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2251 ms
+2021-04-23 16:15:54.236 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:15:54.317 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:15:54.949 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:15:54.984 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:15:55.297 com.sunday.remark.RemarkApplication - Started RemarkApplication in 5.948 seconds (JVM running for 6.626)
+2021-04-23 16:16:07.132 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 16:16:07.133 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 16:16:07.139 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-04-23 16:16:08.124 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 16:16:09.394 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 16:18:59.556 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 8124 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:18:59.556 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:19:00.558 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:19:00.558 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:19:00.652 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 0 Redis repository interfaces.
+2021-04-23 16:19:01.352 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:19:01.368 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:19:01.924 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:19:01.937 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:19:01.938 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:19:01.938 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:19:02.132 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:19:02.132 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2513 ms
+2021-04-23 16:19:03.855 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:19:03.936 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:19:04.636 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:19:04.674 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:19:04.997 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.436 seconds (JVM running for 7.137)
+2021-04-23 16:19:11.573 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 16:19:11.574 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 16:19:11.581 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-04-23 16:19:12.581 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 16:19:13.448 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 16:21:30.686 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 12916 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:21:30.689 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:21:31.616 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:21:31.623 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:21:31.716 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76ms. Found 0 Redis repository interfaces.
+2021-04-23 16:21:32.416 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:21:32.423 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:21:32.968 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:21:32.981 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:21:32.982 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:21:32.982 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:21:33.183 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:21:33.183 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2436 ms
+2021-04-23 16:21:35.064 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:21:35.142 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:21:36.066 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:21:36.098 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:21:36.499 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.849 seconds (JVM running for 7.538)
+2021-04-23 16:22:31.111 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 16:22:31.111 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 16:22:31.123 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2021-04-23 16:22:49.199 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 16:22:49.864 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-23 16:52:50.734 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 2556 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:52:50.735 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:52:51.818 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:52:51.833 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:52:51.934 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 82ms. Found 0 Redis repository interfaces.
+2021-04-23 16:52:52.698 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:52:52.698 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:52:53.268 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:52:53.284 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:52:53.284 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:52:53.284 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:52:53.510 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:52:53.511 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2711 ms
+2021-04-23 16:52:55.581 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:52:55.677 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:52:56.509 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:52:56.533 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:52:56.958 com.sunday.remark.RemarkApplication - Started RemarkApplication in 7.343 seconds (JVM running for 8.122)
+2021-04-23 16:53:03.907 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 16:53:03.908 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 16:53:03.916 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-23 16:53:04.110 c.s.r.controller.aspect.CommonControllerAdvice - assert error:Cannot find cache named 'recommend' for Builder[public net.sf.json.JSONArray com.sunday.remark.service.RemarkService.listRecommendRemarks(java.lang.String,int,int)] caches=[recommend] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false'
+2021-04-23 16:55:17.430 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 17204 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:55:17.446 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:55:18.428 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:55:18.443 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:55:18.543 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88ms. Found 0 Redis repository interfaces.
+2021-04-23 16:55:19.198 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:55:19.213 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:55:19.730 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:55:19.745 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:55:19.745 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:55:19.745 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:55:19.948 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:55:19.948 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2442 ms
+2021-04-23 16:55:21.548 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:55:21.631 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:55:22.285 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:55:22.301 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:55:22.649 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.268 seconds (JVM running for 6.981)
+2021-04-23 16:56:05.321 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 16:56:05.322 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 16:56:05.329 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-04-23 16:57:24.048 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 12020 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:57:24.048 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:57:25.081 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:57:25.081 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:57:25.165 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 0 Redis repository interfaces.
+2021-04-23 16:57:25.833 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:57:25.833 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:57:26.398 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:57:26.414 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:57:26.414 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:57:26.414 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:57:26.599 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:57:26.615 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2492 ms
+2021-04-23 16:57:28.453 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:57:28.522 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:57:29.234 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:57:29.268 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:57:29.614 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.613 seconds (JVM running for 7.452)
+2021-04-23 16:57:53.172 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 16:57:53.172 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 16:57:53.182 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-04-23 16:58:37.761 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:59:50.215 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 14032 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-23 16:59:50.230 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-23 16:59:51.205 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-23 16:59:51.221 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-23 16:59:51.310 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 71ms. Found 0 Redis repository interfaces.
+2021-04-23 16:59:51.922 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:59:51.938 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-23 16:59:52.476 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-23 16:59:52.480 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:59:52.480 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-23 16:59:52.480 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-23 16:59:52.707 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-23 16:59:52.707 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2419 ms
+2021-04-23 16:59:54.295 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-23 16:59:54.364 c.a.cloud.sentinel.SentinelWebAutoConfiguration - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2021-04-23 16:59:55.027 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-23 16:59:55.049 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-23 16:59:55.397 com.sunday.remark.RemarkApplication - Started RemarkApplication in 6.248 seconds (JVM running for 7.016)
+2021-04-23 17:00:00.593 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-23 17:00:00.594 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-23 17:00:00.601 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-04-23 17:00:01.541 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-23 17:00:02.192 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.

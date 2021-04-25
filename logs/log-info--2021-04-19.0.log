@@ -1,0 +1,121 @@
+2021-04-19 10:13:29.115 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 7280 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-19 10:13:29.128 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-19 10:13:33.035 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 9764 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-19 10:13:33.062 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-19 10:13:34.083 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 10:13:34.099 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 10:13:34.184 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61ms. Found 0 Redis repository interfaces.
+2021-04-19 10:13:35.202 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-19 10:13:35.217 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-19 10:13:35.217 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 10:13:35.217 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 10:13:35.440 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 10:13:35.440 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2305 ms
+2021-04-19 10:13:37.515 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 10:13:37.948 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-19 10:13:37.975 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-19 10:13:37.992 com.sunday.remark.RemarkApplication - Started RemarkApplication in 5.758 seconds (JVM running for 6.441)
+2021-04-19 10:17:18.563 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 10:17:18.563 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 10:17:18.572 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-04-19 10:17:36.244 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-19 10:17:38.885 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-19 10:24:37.692 io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /47.115.115.18:6379
+2021-04-19 10:24:37.729 io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 47.115.115.18/<unresolved>:6379
+2021-04-19 10:31:18.892 io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /47.115.115.18:6379
+2021-04-19 10:31:18.922 io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 47.115.115.18/<unresolved>:6379
+2021-04-19 10:35:29.060 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 10:35:29.180 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown initiated...
+2021-04-19 10:35:29.180 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Shutdown completed.
+2021-04-19 10:36:03.061 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 11084 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-19 10:36:03.061 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-19 10:36:03.939 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 10:36:03.945 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 10:36:04.024 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58ms. Found 0 Redis repository interfaces.
+2021-04-19 10:36:04.948 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-19 10:36:04.948 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-19 10:36:04.948 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 10:36:04.948 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 10:36:05.148 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 10:36:05.148 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2017 ms
+2021-04-19 10:36:06.524 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 10:36:06.816 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-19 10:36:06.836 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-19 10:36:06.846 com.sunday.remark.RemarkApplication - Started RemarkApplication in 4.465 seconds (JVM running for 5.033)
+2021-04-19 10:36:23.502 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 10:36:23.502 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 10:36:23.508 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-04-19 10:36:23.651 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Starting...
+2021-04-19 10:36:24.210 com.zaxxer.hikari.HikariDataSource - DatebookHikariCP - Start completed.
+2021-04-19 12:01:35.575 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 11188 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-19 12:01:35.579 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-19 12:01:36.408 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 12:01:36.412 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 12:01:36.500 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57ms. Found 0 Redis repository interfaces.
+2021-04-19 12:01:37.435 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-19 12:01:37.445 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-19 12:01:37.445 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 12:01:37.446 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 12:01:37.618 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 12:01:37.618 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1955 ms
+2021-04-19 12:01:39.170 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 12:01:39.540 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-19 12:01:39.561 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-19 12:01:39.572 com.sunday.remark.RemarkApplication - Started RemarkApplication in 4.746 seconds (JVM running for 5.419)
+2021-04-19 12:02:00.759 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 12:02:00.759 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 12:02:00.769 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-04-19 12:03:34.850 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 13692 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-19 12:03:34.854 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-19 12:03:35.698 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 12:03:35.701 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 12:03:35.790 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 0 Redis repository interfaces.
+2021-04-19 12:03:36.681 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-19 12:03:36.691 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-19 12:03:36.692 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 12:03:36.692 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 12:03:36.872 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 12:03:36.872 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1953 ms
+2021-04-19 12:03:38.193 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 12:03:38.496 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-19 12:03:38.514 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-19 12:03:38.524 com.sunday.remark.RemarkApplication - Started RemarkApplication in 4.323 seconds (JVM running for 4.913)
+2021-04-19 12:03:53.058 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 12:03:53.059 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 12:03:53.067 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2021-04-19 12:14:31.594 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 12412 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-19 12:14:31.599 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-19 12:14:32.430 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 12:14:32.434 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 12:14:32.521 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57ms. Found 0 Redis repository interfaces.
+2021-04-19 12:14:33.388 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-19 12:14:33.399 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-19 12:14:33.399 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 12:14:33.400 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 12:14:33.612 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 12:14:33.613 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1951 ms
+2021-04-19 12:14:34.899 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 12:14:35.206 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-19 12:14:35.228 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-19 12:14:35.240 com.sunday.remark.RemarkApplication - Started RemarkApplication in 4.31 seconds (JVM running for 4.893)
+2021-04-19 12:14:39.471 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 12:14:39.472 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 12:14:39.478 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-04-19 12:15:49.803 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 11868 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-19 12:15:49.808 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-19 12:15:50.606 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-19 12:15:50.609 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-19 12:15:50.688 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54ms. Found 0 Redis repository interfaces.
+2021-04-19 12:15:51.578 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 18080 (http)
+2021-04-19 12:15:51.588 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-18080"]
+2021-04-19 12:15:51.588 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-19 12:15:51.589 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-19 12:15:51.744 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-19 12:15:51.744 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1874 ms
+2021-04-19 12:15:53.109 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 12:15:53.418 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-18080"]
+2021-04-19 12:15:53.438 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 18080 (http) with context path ''
+2021-04-19 12:15:53.454 com.sunday.remark.RemarkApplication - Started RemarkApplication in 4.295 seconds (JVM running for 4.878)
+2021-04-19 12:15:55.605 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-19 12:15:55.606 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-19 12:15:55.613 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms

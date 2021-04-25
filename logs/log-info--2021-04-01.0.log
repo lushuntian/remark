@@ -1,0 +1,596 @@
+2021-04-01 09:57:15.370 com.sunday.remark.repository.RemarkRepositoryTest - Starting RemarkRepositoryTest on LAPTOP-0K66VC5Q with PID 12644 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 09:57:15.378 com.sunday.remark.repository.RemarkRepositoryTest - No active profile set, falling back to default profiles: default
+2021-04-01 09:57:16.915 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 09:57:16.929 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 09:57:17.078 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 87ms. Found 0 Redis repository interfaces.
+2021-04-01 09:57:18.941 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 09:57:19.601 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 09:57:21.040 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 09:57:22.585 com.sunday.remark.repository.RemarkRepositoryTest - Started RemarkRepositoryTest in 7.948 seconds (JVM running for 11.706)
+2021-04-01 09:57:23.747 o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sunday.remark.service.RemarkServiceTest], using SpringBootContextLoader
+2021-04-01 09:57:23.752 o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sunday.remark.service.RemarkServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-01 09:57:23.753 o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sunday.remark.service.RemarkServiceTest]: RemarkServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-04-01 09:57:23.778 o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sunday.remark.RemarkApplication for test class com.sunday.remark.service.RemarkServiceTest
+2021-04-01 09:57:23.787 o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-04-01 09:57:23.787 o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@53d87b2d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@470135da, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7323dce7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5f68eec6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4ff9f715, org.springframework.test.context.transaction.TransactionalTestExecutionListener@118a4d5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6cb194f5, org.springframework.test.context.event.EventPublishingTestExecutionListener@74b7497b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@74f649a7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@308c65e0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@50fa5938, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1e482ecd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@58b5f7d2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@bc52a41]
+2021-04-01 09:57:23.869 o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sunday.remark.RemarkApplicationTests], using SpringBootContextLoader
+2021-04-01 09:57:23.886 o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sunday.remark.RemarkApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-01 09:57:23.886 o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sunday.remark.RemarkApplicationTests]: RemarkApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-04-01 09:57:23.902 o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sunday.remark.RemarkApplication for test class com.sunday.remark.RemarkApplicationTests
+2021-04-01 09:57:23.904 o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-04-01 09:57:23.904 o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@71eff6a3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@574218f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@735988cf, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2d3eecda, org.springframework.test.context.support.DirtiesContextTestExecutionListener@236a4d30, org.springframework.test.context.transaction.TransactionalTestExecutionListener@736788b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@38968752, org.springframework.test.context.event.EventPublishingTestExecutionListener@6294e4a6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@13662609, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@27a0e6ce, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2b80497f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6ef4297d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4c000cc4, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6c36051c]
+2021-04-01 09:57:23.951 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 09:57:23.953 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 09:57:23.957 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 09:58:55.980 com.sunday.remark.repository.RemarkRepositoryTest - Starting RemarkRepositoryTest on LAPTOP-0K66VC5Q with PID 17004 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 09:58:55.985 com.sunday.remark.repository.RemarkRepositoryTest - No active profile set, falling back to default profiles: default
+2021-04-01 09:58:57.122 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 09:58:57.125 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 09:58:57.225 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66ms. Found 0 Redis repository interfaces.
+2021-04-01 09:58:58.503 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 09:58:59.020 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 09:59:00.547 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 09:59:01.962 com.sunday.remark.repository.RemarkRepositoryTest - Started RemarkRepositoryTest in 6.931 seconds (JVM running for 9.462)
+2021-04-01 09:59:02.917 o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sunday.remark.service.RemarkServiceTest], using SpringBootContextLoader
+2021-04-01 09:59:02.919 o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sunday.remark.service.RemarkServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-01 09:59:02.920 o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sunday.remark.service.RemarkServiceTest]: RemarkServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-04-01 09:59:02.941 o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sunday.remark.RemarkApplication for test class com.sunday.remark.service.RemarkServiceTest
+2021-04-01 09:59:02.941 o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-04-01 09:59:02.947 o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@470135da, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7323dce7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5f68eec6, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4ff9f715, org.springframework.test.context.support.DirtiesContextTestExecutionListener@118a4d5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6cb194f5, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@74b7497b, org.springframework.test.context.event.EventPublishingTestExecutionListener@74f649a7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@308c65e0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@50fa5938, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1e482ecd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@58b5f7d2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@bc52a41, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@9f48198]
+2021-04-01 09:59:03.025 o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sunday.remark.RemarkApplicationTests], using SpringBootContextLoader
+2021-04-01 09:59:03.029 o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sunday.remark.RemarkApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-01 09:59:03.030 o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sunday.remark.RemarkApplicationTests]: RemarkApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-04-01 09:59:03.042 o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sunday.remark.RemarkApplication for test class com.sunday.remark.RemarkApplicationTests
+2021-04-01 09:59:03.047 o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-04-01 09:59:03.047 o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@735988cf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2d3eecda, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@236a4d30, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@736788b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@38968752, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6294e4a6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@13662609, org.springframework.test.context.event.EventPublishingTestExecutionListener@27a0e6ce, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2b80497f, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ef4297d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4c000cc4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6c36051c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@45d46254, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@a240452]
+2021-04-01 09:59:03.094 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 09:59:03.098 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 09:59:03.104 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 10:00:46.301 com.sunday.remark.repository.RemarkRepositoryTest - Starting RemarkRepositoryTest on LAPTOP-0K66VC5Q with PID 5932 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 10:00:46.315 com.sunday.remark.repository.RemarkRepositoryTest - No active profile set, falling back to default profiles: default
+2021-04-01 10:00:48.863 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 10:00:48.883 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 10:00:49.016 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85ms. Found 0 Redis repository interfaces.
+2021-04-01 10:00:50.889 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 10:00:51.484 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 10:00:53.313 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:00:55.581 com.sunday.remark.repository.RemarkRepositoryTest - Started RemarkRepositoryTest in 10.753 seconds (JVM running for 14.924)
+2021-04-01 10:00:57.174 o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sunday.remark.service.RemarkServiceTest], using SpringBootContextLoader
+2021-04-01 10:00:57.192 o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sunday.remark.service.RemarkServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-01 10:00:57.194 o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sunday.remark.service.RemarkServiceTest]: RemarkServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-04-01 10:00:57.213 o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sunday.remark.RemarkApplication for test class com.sunday.remark.service.RemarkServiceTest
+2021-04-01 10:00:57.229 o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-04-01 10:00:57.230 o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@31e22365, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ebf524, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@41bdaa81, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@799971ac, org.springframework.test.context.support.DirtiesContextTestExecutionListener@59c08cf1, org.springframework.test.context.transaction.TransactionalTestExecutionListener@45f0038, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@289a4b90, org.springframework.test.context.event.EventPublishingTestExecutionListener@1a3c4b3e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4746fb8c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3be46d9c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@41d877bb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@39c5a105, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@492fa72a, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@513fab1e]
+2021-04-01 10:00:57.312 o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sunday.remark.RemarkApplicationTests], using SpringBootContextLoader
+2021-04-01 10:00:57.313 o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sunday.remark.RemarkApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-01 10:00:57.313 o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sunday.remark.RemarkApplicationTests]: RemarkApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-04-01 10:00:57.329 o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sunday.remark.RemarkApplication for test class com.sunday.remark.RemarkApplicationTests
+2021-04-01 10:00:57.329 o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-04-01 10:00:57.329 o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@56f84c9b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@26679788, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5cdda548, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4f2544b0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5bad555b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@41ec4271, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@70aa58e1, org.springframework.test.context.event.EventPublishingTestExecutionListener@154f8280, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@24f90aff, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7252bdb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@25ea068e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4cd8db31, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@201a8ea7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@ecf028c]
+2021-04-01 10:00:57.396 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:00:57.398 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 10:00:57.401 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 10:02:28.902 com.sunday.remark.service.RemarkServiceTest - Starting RemarkServiceTest on LAPTOP-0K66VC5Q with PID 7716 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 10:02:28.912 com.sunday.remark.service.RemarkServiceTest - No active profile set, falling back to default profiles: default
+2021-04-01 10:02:30.367 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 10:02:30.379 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 10:02:30.446 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 0 Redis repository interfaces.
+2021-04-01 10:02:31.843 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 10:02:32.435 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 10:02:33.556 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:02:34.950 com.sunday.remark.service.RemarkServiceTest - Started RemarkServiceTest in 7.17 seconds (JVM running for 9.785)
+2021-04-01 10:02:36.310 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:02:36.313 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 10:02:36.321 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 10:06:42.517 com.sunday.remark.repository.RemarkRepositoryTest - Starting RemarkRepositoryTest on LAPTOP-0K66VC5Q with PID 19332 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 10:06:42.519 com.sunday.remark.repository.RemarkRepositoryTest - No active profile set, falling back to default profiles: default
+2021-04-01 10:06:43.668 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 10:06:43.678 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 10:06:43.735 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 0 Redis repository interfaces.
+2021-04-01 10:06:44.839 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 10:06:45.380 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 10:06:46.667 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:06:48.303 com.sunday.remark.repository.RemarkRepositoryTest - Started RemarkRepositoryTest in 6.547 seconds (JVM running for 9.844)
+2021-04-01 10:06:49.273 o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sunday.remark.service.RemarkServiceTest], using SpringBootContextLoader
+2021-04-01 10:06:49.276 o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sunday.remark.service.RemarkServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-01 10:06:49.277 o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sunday.remark.service.RemarkServiceTest]: RemarkServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-04-01 10:06:49.294 o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sunday.remark.RemarkApplication for test class com.sunday.remark.service.RemarkServiceTest
+2021-04-01 10:06:49.300 o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-04-01 10:06:49.301 o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@18d22ecf, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@73d83141, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@31443680, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@33356666, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3a988299, org.springframework.test.context.transaction.TransactionalTestExecutionListener@878feb2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1818390b, org.springframework.test.context.event.EventPublishingTestExecutionListener@67a38, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7ef4aceb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@31b650e9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@683fe7b5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b5b8730, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@93fb44, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@321c2a7]
+2021-04-01 10:06:49.370 o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.sunday.remark.RemarkApplicationTests], using SpringBootContextLoader
+2021-04-01 10:06:49.373 o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.sunday.remark.RemarkApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-04-01 10:06:49.373 o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.sunday.remark.RemarkApplicationTests]: RemarkApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-04-01 10:06:49.384 o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.sunday.remark.RemarkApplication for test class com.sunday.remark.RemarkApplicationTests
+2021-04-01 10:06:49.387 o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-04-01 10:06:49.387 o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4cd8db31, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@201a8ea7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@ecf028c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7b64bbad, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71eff6a3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@574218f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@735988cf, org.springframework.test.context.event.EventPublishingTestExecutionListener@2d3eecda, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@236a4d30, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@736788b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@38968752, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6294e4a6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@13662609, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@27a0e6ce]
+2021-04-01 10:06:49.428 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 10:06:49.429 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 10:06:49.434 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 15:35:22.762 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 16432 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 15:35:22.766 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-01 15:35:23.867 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 15:35:23.869 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 15:35:23.955 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 0 Redis repository interfaces.
+2021-04-01 15:35:25.302 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-01 15:35:25.319 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-01 15:35:25.319 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-01 15:35:25.320 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-01 15:35:25.561 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-01 15:35:25.561 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2702 ms
+2021-04-01 15:35:26.101 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 15:35:27.239 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-01 15:35:27.281 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-01 15:35:27.294 com.sunday.remark.RemarkApplication - Started RemarkApplication in 5.372 seconds (JVM running for 6.336)
+2021-04-01 15:36:58.704 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 15:36:58.705 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-01 15:36:58.717 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2021-04-01 15:37:42.472 c.s.r.controller.aspect.CommonControllerAdvice - assert error:用户id不能为空
+2021-04-01 15:43:20.885 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 12516 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 15:43:20.894 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-01 15:43:22.558 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 15:43:22.566 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 15:43:22.662 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60ms. Found 0 Redis repository interfaces.
+2021-04-01 15:43:24.588 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-01 15:43:24.622 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-01 15:43:24.624 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-01 15:43:24.626 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-01 15:43:25.092 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-01 15:43:25.094 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4059 ms
+2021-04-01 15:43:25.878 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 15:43:27.309 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-01 15:43:27.398 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-01 15:43:27.425 com.sunday.remark.RemarkApplication - Started RemarkApplication in 7.988 seconds (JVM running for 9.379)
+2021-04-01 15:43:31.181 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 15:43:31.181 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-01 15:43:31.196 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2021-04-01 15:44:04.640 c.s.r.controller.aspect.CommonControllerAdvice - assert error:用户id不能为空
+2021-04-01 15:50:03.777 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 18012 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 15:50:03.788 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-01 15:50:05.482 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 15:50:05.488 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 15:50:05.582 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60ms. Found 0 Redis repository interfaces.
+2021-04-01 15:50:07.330 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-01 15:50:07.359 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-01 15:50:07.360 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-01 15:50:07.360 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-01 15:50:07.901 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-01 15:50:07.901 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3942 ms
+2021-04-01 15:50:08.711 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 15:50:10.021 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-01 15:50:10.087 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-01 15:50:10.118 com.sunday.remark.RemarkApplication - Started RemarkApplication in 7.706 seconds (JVM running for 8.947)
+2021-04-01 15:50:16.335 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 15:50:16.335 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-01 15:50:16.346 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2021-04-01 15:50:31.332 c.s.r.controller.aspect.CommonControllerAdvice - assert error:用户id不能为空
+2021-04-01 15:50:51.935 c.s.r.controller.aspect.CommonControllerAdvice - assert error:订单id不可为空
+2021-04-01 15:51:14.760 c.s.r.controller.aspect.CommonControllerAdvice - assert error:评分不合规
+2021-04-01 16:03:55.517 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 9376 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 16:03:55.517 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 16:03:56.599 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 16:03:56.608 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 16:03:56.706 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59ms. Found 0 Redis repository interfaces.
+2021-04-01 16:03:57.832 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 16:03:58.274 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 16:03:59.317 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:04:00.614 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 5.87 seconds (JVM running for 7.866)
+2021-04-01 16:04:00.841 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:04:00.843 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 16:04:00.847 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 16:04:39.785 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 13980 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 16:04:39.787 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 16:04:40.908 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 16:04:40.915 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 16:04:40.980 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 Redis repository interfaces.
+2021-04-01 16:04:42.609 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 16:04:43.299 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 16:04:44.617 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:04:45.993 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 6.927 seconds (JVM running for 8.731)
+2021-04-01 16:04:47.592 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:04:47.593 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 16:04:47.599 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 16:08:11.703 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 16552 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 16:08:11.705 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 16:08:12.847 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 16:08:12.852 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 16:08:12.923 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59ms. Found 0 Redis repository interfaces.
+2021-04-01 16:08:14.072 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 16:08:14.401 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 16:08:15.455 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:08:16.747 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 5.677 seconds (JVM running for 7.541)
+2021-04-01 16:08:17.499 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:08:17.502 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 16:08:17.507 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 16:10:06.287 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 14628 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 16:10:06.287 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 16:10:07.301 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 16:10:07.305 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 16:10:07.364 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 Redis repository interfaces.
+2021-04-01 16:10:08.398 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 16:10:08.740 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 16:10:09.735 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:10:10.987 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 5.536 seconds (JVM running for 7.29)
+2021-04-01 16:10:11.829 org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 16:10:11.830 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 16:10:11.831 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2021-04-01 16:10:11.935 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:10:11.935 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 16:10:11.946 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 16:15:12.877 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 11804 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 16:15:12.879 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 16:15:13.905 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 16:15:13.912 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 16:15:14.048 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 104ms. Found 0 Redis repository interfaces.
+2021-04-01 16:15:15.126 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 16:15:15.457 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 16:15:16.504 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:15:17.775 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 5.549 seconds (JVM running for 7.407)
+2021-04-01 16:15:18.498 org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 16:15:18.500 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 16:15:18.501 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2021-04-01 16:15:18.605 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:15:18.606 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 16:15:18.618 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 16:18:11.351 com.sunday.remark.RemarkApplication - Starting RemarkApplication on LAPTOP-0K66VC5Q with PID 6912 (C:\Users\lushuntian\Desktop\shuntian\code\remark\target\classes started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 16:18:11.358 com.sunday.remark.RemarkApplication - No active profile set, falling back to default profiles: default
+2021-04-01 16:18:12.391 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 16:18:12.395 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 16:18:12.500 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60ms. Found 0 Redis repository interfaces.
+2021-04-01 16:18:13.560 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-01 16:18:13.564 org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-01 16:18:13.564 org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-01 16:18:13.577 org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-01 16:18:13.914 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-01 16:18:13.914 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2479 ms
+2021-04-01 16:18:14.371 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:18:15.132 org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-01 16:18:15.183 o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-01 16:18:15.208 com.sunday.remark.RemarkApplication - Started RemarkApplication in 4.738 seconds (JVM running for 5.474)
+2021-04-01 16:18:55.957 o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-01 16:18:55.957 org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-01 16:18:55.962 org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-04-01 16:56:48.072 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 7552 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 16:56:48.072 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 16:56:48.802 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 16:56:48.802 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 16:56:48.871 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+2021-04-01 16:56:49.388 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 16:56:49.635 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 16:56:50.344 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:56:51.245 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 16:56:51.245 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 16:56:51.260 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 15 ms
+2021-04-01 16:56:51.276 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.618 seconds (JVM running for 4.877)
+2021-04-01 16:56:51.763 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 16:56:51.763 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 16:56:51.763 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2021-04-01 16:56:51.985 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 16:56:51.985 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 16:56:51.985 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 16:58:50.498 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 21396 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 16:58:50.498 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 16:58:51.170 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 16:58:51.185 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 16:58:51.220 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2021-04-01 16:58:51.717 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 16:58:51.934 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 16:58:51.998 o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-01 17:00:13.390 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 12936 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:00:13.390 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:00:14.069 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:00:14.069 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:00:14.122 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+2021-04-01 17:00:14.647 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:00:14.867 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:00:15.549 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:00:16.397 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:00:16.397 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:00:16.413 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 16 ms
+2021-04-01 17:00:16.429 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.455 seconds (JVM running for 4.697)
+2021-04-01 17:00:16.868 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:00:16.869 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:00:16.870 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2021-04-01 17:00:17.102 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:00:17.102 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:00:17.102 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:02:08.953 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 6448 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:02:08.953 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:02:09.834 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:02:09.834 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:02:09.888 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+2021-04-01 17:02:10.436 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:02:10.689 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:02:11.390 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:02:12.254 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:02:12.254 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:02:12.270 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 16 ms
+2021-04-01 17:02:12.308 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.767 seconds (JVM running for 5.248)
+2021-04-01 17:02:12.874 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:02:12.874 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:02:12.876 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2021-04-01 17:02:13.096 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:02:13.097 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:02:13.100 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:07:38.878 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 22940 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:07:38.878 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:07:39.554 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:07:39.554 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:07:39.601 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2021-04-01 17:07:40.118 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:07:40.318 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:07:40.976 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:07:41.809 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:07:41.809 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:07:41.827 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 18 ms
+2021-04-01 17:07:41.839 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.323 seconds (JVM running for 4.594)
+2021-04-01 17:07:42.241 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:07:42.241 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:07:42.243 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2021-04-01 17:07:42.465 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:07:42.465 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:07:42.473 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:22:40.561 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 5164 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:22:40.561 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:22:41.233 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:22:41.233 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:22:41.269 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2021-04-01 17:22:41.781 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:22:42.013 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:22:42.699 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:22:43.517 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:22:43.517 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:22:43.539 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 22 ms
+2021-04-01 17:22:43.557 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.375 seconds (JVM running for 4.705)
+2021-04-01 17:22:43.971 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:22:43.971 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:22:43.971 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2021-04-01 17:22:44.240 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:22:44.240 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:22:44.240 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:23:08.683 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 14892 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:23:08.683 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:23:09.348 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:23:09.348 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:23:09.395 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2021-04-01 17:23:09.886 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:23:10.113 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:23:10.782 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:23:11.637 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:23:11.637 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:23:11.637 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2021-04-01 17:23:11.668 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.334 seconds (JVM running for 4.616)
+2021-04-01 17:23:12.100 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:23:12.100 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:23:12.100 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2021-04-01 17:23:12.301 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:23:12.316 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:23:12.316 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:27:11.142 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 13932 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:27:11.143 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:27:11.844 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:27:11.846 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:27:11.889 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2021-04-01 17:27:12.396 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:27:12.611 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:27:13.305 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:27:14.199 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:27:14.200 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:27:14.213 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 13 ms
+2021-04-01 17:27:14.230 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.453 seconds (JVM running for 4.75)
+2021-04-01 17:27:14.693 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:27:14.693 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:27:14.695 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2021-04-01 17:27:14.925 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:27:14.927 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:27:14.930 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:27:43.501 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 20344 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:27:43.502 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:27:44.199 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:27:44.202 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:27:44.242 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2021-04-01 17:27:44.749 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:27:44.966 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:27:45.692 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:27:46.555 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:27:46.555 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:27:46.574 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 18 ms
+2021-04-01 17:27:46.594 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.496 seconds (JVM running for 4.776)
+2021-04-01 17:27:46.999 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:27:47.000 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:27:47.001 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2021-04-01 17:27:47.217 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:27:47.218 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:27:47.221 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:29:36.713 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 15712 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:29:36.715 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:29:37.464 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:29:37.467 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:29:37.508 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2021-04-01 17:29:38.076 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:29:38.343 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:29:39.022 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:29:39.897 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:29:39.897 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:29:39.914 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 16 ms
+2021-04-01 17:29:39.932 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.599 seconds (JVM running for 4.927)
+2021-04-01 17:29:40.451 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:29:40.451 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:29:40.453 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2021-04-01 17:29:40.655 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:29:40.656 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:29:40.658 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:31:41.886 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 584 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:31:41.887 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:31:42.575 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:31:42.579 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:31:42.621 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2021-04-01 17:31:43.109 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:31:43.312 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:31:43.995 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:31:44.841 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:31:44.841 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:31:44.858 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 16 ms
+2021-04-01 17:31:44.878 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.35 seconds (JVM running for 4.65)
+2021-04-01 17:31:45.286 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:31:45.286 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:31:45.288 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2021-04-01 17:31:45.479 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:31:45.480 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:31:45.482 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:33:01.745 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 5320 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:33:01.745 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:33:02.476 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:33:02.476 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:33:02.526 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2021-04-01 17:33:03.055 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:33:03.260 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:33:04.003 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:33:04.893 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:33:04.893 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:33:04.914 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 21 ms
+2021-04-01 17:33:04.934 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.558 seconds (JVM running for 4.819)
+2021-04-01 17:33:05.361 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:33:05.361 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:33:05.377 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 16 ms
+2021-04-01 17:33:05.562 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:33:05.562 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:33:05.562 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:33:58.526 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 23420 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:33:58.528 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:33:59.243 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:33:59.251 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:33:59.282 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2021-04-01 17:33:59.833 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:34:00.052 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:34:00.784 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:34:01.642 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:34:01.642 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:34:01.652 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 10 ms
+2021-04-01 17:34:01.668 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.531 seconds (JVM running for 4.838)
+2021-04-01 17:34:02.123 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:34:02.123 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:34:02.125 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2021-04-01 17:34:02.345 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:34:02.346 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:34:02.349 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:34:48.136 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 1892 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:34:48.137 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:34:48.832 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:34:48.835 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:34:48.858 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2021-04-01 17:34:49.374 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:34:49.614 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:34:50.320 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:34:51.189 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:34:51.189 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:34:51.209 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 20 ms
+2021-04-01 17:34:51.231 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.458 seconds (JVM running for 4.774)
+2021-04-01 17:34:51.667 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:34:51.667 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:34:51.667 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2021-04-01 17:34:51.893 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:34:51.893 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:34:51.893 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:38:27.487 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 9692 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:38:27.503 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:38:28.216 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:38:28.219 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:38:28.262 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2021-04-01 17:38:28.758 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:38:28.989 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:38:29.690 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:38:30.584 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:38:30.584 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:38:30.600 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 16 ms
+2021-04-01 17:38:30.630 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.518 seconds (JVM running for 4.837)
+2021-04-01 17:38:31.092 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:38:31.092 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:38:31.092 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2021-04-01 17:38:31.361 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:38:31.361 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:38:31.361 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:44:18.788 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 4060 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:44:18.788 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:44:19.500 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:44:19.500 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:44:19.546 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2021-04-01 17:44:20.055 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:44:20.285 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:44:20.964 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:44:21.851 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:44:21.852 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:44:21.864 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 12 ms
+2021-04-01 17:44:21.882 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.463 seconds (JVM running for 4.807)
+2021-04-01 17:44:22.324 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:44:22.325 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:44:22.326 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+2021-04-01 17:44:22.679 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:44:22.679 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:44:22.679 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 17:58:24.573 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 19908 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 17:58:24.573 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 17:58:25.325 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 17:58:25.328 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 17:58:25.364 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2021-04-01 17:58:25.873 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 17:58:26.126 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 17:58:26.861 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:58:27.734 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:58:27.734 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:58:27.750 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 15 ms
+2021-04-01 17:58:27.763 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.589 seconds (JVM running for 4.946)
+2021-04-01 17:58:28.235 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 17:58:28.235 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 17:58:28.237 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 2 ms
+2021-04-01 17:58:28.545 c.s.r.controller.aspect.CommonControllerAdvice - assert error:内容不能少于10字
+2021-04-01 17:58:28.572 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 17:58:28.572 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 17:58:28.572 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 18:01:04.460 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 22584 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 18:01:04.460 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 18:16:24.534 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 13084 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 18:16:24.534 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 18:16:25.210 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 18:16:25.210 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 18:16:25.242 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2021-04-01 18:16:25.785 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 18:16:25.986 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 18:16:26.671 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 18:16:27.573 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 18:16:27.573 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 18:16:27.589 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 16 ms
+2021-04-01 18:16:27.620 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.428 seconds (JVM running for 4.768)
+2021-04-01 18:16:28.036 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 18:16:28.036 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 18:16:28.036 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2021-04-01 18:16:28.328 c.s.r.controller.aspect.CommonControllerAdvice - assert error:内容不能少于10字
+2021-04-01 18:16:28.359 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 18:16:28.359 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 18:16:28.375 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-01 18:18:11.877 com.sunday.remark.controller.RemarkControllerTest - Starting RemarkControllerTest on LAPTOP-0K66VC5Q with PID 10024 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-01 18:18:11.877 com.sunday.remark.controller.RemarkControllerTest - No active profile set, falling back to default profiles: default
+2021-04-01 18:18:12.556 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-01 18:18:12.556 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-01 18:18:12.603 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2021-04-01 18:18:13.089 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-01 18:18:13.305 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-01 18:18:13.991 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-01 18:18:14.830 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 18:18:14.830 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 18:18:14.849 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 19 ms
+2021-04-01 18:18:14.865 com.sunday.remark.controller.RemarkControllerTest - Started RemarkControllerTest in 3.36 seconds (JVM running for 4.608)
+2021-04-01 18:18:15.309 o.s.b.test.mock.web.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 18:18:15.309 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 18:18:15.309 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2021-04-01 18:18:15.632 c.s.r.controller.aspect.CommonControllerAdvice - assert error:内容不能少于10字
+2021-04-01 18:18:15.632 c.s.r.controller.aspect.CommonControllerAdvice - assert error:用户id不能为空
+2021-04-01 18:18:15.632 c.s.r.controller.aspect.CommonControllerAdvice - assert error:内容不能少于10字
+2021-04-01 18:18:15.632 c.s.r.controller.aspect.CommonControllerAdvice - assert error:评分不合规
+2021-04-01 18:18:15.647 org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+2021-04-01 18:18:15.647 o.s.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+2021-04-01 18:18:15.647 o.s.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+2021-04-01 18:18:15.679 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-01 18:18:15.694 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-01 18:18:15.694 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

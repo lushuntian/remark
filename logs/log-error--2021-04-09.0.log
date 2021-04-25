@@ -1,0 +1,7 @@
+2021-04-09 13:16:22.382 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+java.lang.UnsupportedOperationException: Unsupported operation 'evalsha'
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:135)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-09 15:12:01.263 ERROR --- [http-nio-18080-exec-1] c.s.r.controller.aspect.CommonControllerAdvice - NPE error:Cannot invoke "java.lang.Long.longValue()" because the return value of "org.springframework.data.redis.core.RedisTemplate.execute(org.springframework.data.redis.core.script.RedisScript, java.util.List, Object[])" is null

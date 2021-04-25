@@ -1,0 +1,211 @@
+2021-04-07 09:28:54.260 ERROR --- [http-nio-18080-exec-1] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Optional int parameter 'curIndex' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+2021-04-07 18:02:15.073 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:02:15.073 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,0,-1
+2021-04-07 18:02:15.088 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:02:15.088 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,1,1
+2021-04-07 18:03:43.327 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:03:44.364 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,0,-1
+2021-04-07 18:03:57.749 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:03:58.312 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,1,1
+2021-04-07 18:04:21.699 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:04:22.333 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,0,-1
+2021-04-07 18:04:47.829 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:05:53.734 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,1,1
+2021-04-07 18:06:16.644 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:06:16.660 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,0,-1
+2021-04-07 18:06:16.660 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:06:16.675 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,1,1
+2021-04-07 18:10:18.981 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:10:18.987 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,0,-1
+2021-04-07 18:10:18.997 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:10:19.001 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,1,1
+2021-04-07 18:11:04.096 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:11:04.103 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,0,-1
+2021-04-07 18:11:04.112 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:11:04.115 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,1,1
+2021-04-07 18:11:49.851 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:11:49.860 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,0,-1
+2021-04-07 18:11:53.520 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:11:53.523 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,1,1
+2021-04-07 18:13:00.778 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:13:01.867 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:cannot load db at once by:2,0,-1
+2021-04-07 18:13:01.867 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:13:02.970 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:cannot load db at once by:2,1,1
+2021-04-07 18:13:19.244 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 18:16:12.876 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error creating bean with name 'redisConnectionFactory': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!) by:2,0,-1
+2021-04-07 18:16:12.882 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error creating bean with name 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties': Could not bind properties to 'RedisProperties' : prefix=spring.redis, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is java.lang.IllegalStateException: org.springframework.web.context.support.GenericWebApplicationContext@751d3241 has been closed already by:2,1,1
+2021-04-07 20:18:07.908 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 20:18:07.929 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,0,-1
+2021-04-07 20:18:07.952 ERROR --- [Thread-3] ai.grakn.redismock.commands.RedisOperationExecutor - Malformed request
+ai.grakn.redismock.exception.WrongNumberOfArgumentsException: null
+	at ai.grakn.redismock.Utils.checkArgumentsNumberEquals(Utils.java:30)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.precheck(AbstractRedisOperation.java:48)
+	at ai.grakn.redismock.commands.AbstractRedisOperation.<init>(AbstractRedisOperation.java:19)
+	at ai.grakn.redismock.commands.RO_set.<init>(RO_set.java:11)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.buildSimpleOperation(RedisOperationExecutor.java:36)
+	at ai.grakn.redismock.commands.RedisOperationExecutor.execCommand(RedisOperationExecutor.java:154)
+	at ai.grakn.redismock.RedisClient.run(RedisClient.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-07 20:18:07.962 ERROR --- [main] com.sunday.remark.service.RemarkService - function RemarkService.listRemarks make exception:Error in execution; nested exception is io.lettuce.core.RedisCommandExecutionException: ERR wrong number of arguments for 'set' command by:2,1,1

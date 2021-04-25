@@ -1,0 +1,57 @@
+2021-04-06 23:23:50.316 com.sunday.remark.repository.RemarkRepositoryTest - Starting RemarkRepositoryTest on LAPTOP-0K66VC5Q with PID 6192 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-06 23:23:50.323 com.sunday.remark.repository.RemarkRepositoryTest - No active profile set, falling back to default profiles: default
+2021-04-06 23:23:51.769 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-06 23:23:51.771 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-06 23:23:51.889 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78ms. Found 0 Redis repository interfaces.
+2021-04-06 23:23:53.179 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-06 23:23:53.735 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-06 23:23:55.998 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 23:23:56.900 com.sunday.remark.repository.RemarkRepositoryTest - Started RemarkRepositoryTest in 7.335 seconds (JVM running for 10.026)
+2021-04-06 23:23:57.938 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 23:23:57.971 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-06 23:23:57.977 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-06 23:25:45.730 com.sunday.remark.repository.RemarkRepositoryTest - Starting RemarkRepositoryTest on LAPTOP-0K66VC5Q with PID 20096 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-06 23:25:45.732 com.sunday.remark.repository.RemarkRepositoryTest - No active profile set, falling back to default profiles: default
+2021-04-06 23:25:47.583 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-06 23:25:47.589 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-06 23:25:47.761 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 114ms. Found 0 Redis repository interfaces.
+2021-04-06 23:25:48.992 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-06 23:25:49.546 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-06 23:25:51.383 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 23:25:52.212 com.sunday.remark.repository.RemarkRepositoryTest - Started RemarkRepositoryTest in 7.422 seconds (JVM running for 9.886)
+2021-04-06 23:25:53.281 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 23:25:53.302 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-06 23:25:53.307 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-06 23:26:14.573 com.sunday.remark.repository.RemarkRepositoryTest - Starting RemarkRepositoryTest on LAPTOP-0K66VC5Q with PID 17876 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-06 23:26:14.573 com.sunday.remark.repository.RemarkRepositoryTest - No active profile set, falling back to default profiles: default
+2021-04-06 23:26:15.797 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-06 23:26:15.804 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-06 23:26:15.969 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 117ms. Found 0 Redis repository interfaces.
+2021-04-06 23:26:17.073 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-06 23:26:17.557 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-06 23:26:19.222 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 23:26:20.073 com.sunday.remark.repository.RemarkRepositoryTest - Started RemarkRepositoryTest in 6.217 seconds (JVM running for 8.464)
+2021-04-06 23:26:21.146 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 23:26:21.172 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-06 23:26:21.177 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-06 23:52:49.614 com.sunday.remark.service.RemarkServiceTest - Starting RemarkServiceTest on LAPTOP-0K66VC5Q with PID 7864 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-06 23:52:49.615 com.sunday.remark.service.RemarkServiceTest - No active profile set, falling back to default profiles: default
+2021-04-06 23:52:51.188 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-06 23:52:51.195 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-06 23:52:51.349 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 108ms. Found 0 Redis repository interfaces.
+2021-04-06 23:52:52.508 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-06 23:52:53.067 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-06 23:52:54.850 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 23:52:55.712 com.sunday.remark.service.RemarkServiceTest - Started RemarkServiceTest in 7.006 seconds (JVM running for 9.36)
+2021-04-06 23:52:57.861 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 23:52:58.001 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-04-06 23:52:58.006 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-04-06 23:54:05.121 com.sunday.remark.service.RemarkServiceTest - Starting RemarkServiceTest on LAPTOP-0K66VC5Q with PID 816 (started by lushuntian in C:\Users\lushuntian\Desktop\shuntian\code\remark)
+2021-04-06 23:54:05.128 com.sunday.remark.service.RemarkServiceTest - No active profile set, falling back to default profiles: default
+2021-04-06 23:54:06.447 o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-04-06 23:54:06.455 o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-04-06 23:54:06.608 o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99ms. Found 0 Redis repository interfaces.
+2021-04-06 23:54:07.636 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-04-06 23:54:08.065 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-04-06 23:54:09.910 o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 23:54:10.723 com.sunday.remark.service.RemarkServiceTest - Started RemarkServiceTest in 6.228 seconds (JVM running for 8.488)

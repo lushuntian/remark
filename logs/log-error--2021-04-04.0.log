@@ -1,0 +1,3 @@
+2021-04-04 22:21:47.095 ERROR --- [main] c.s.r.controller.aspect.CommonControllerAdvice - NPE error:Cannot invoke "String.equals(Object)" because the return value of "com.sunday.remark.repository.entity.Remark.getItemId()" is null
+2021-04-04 23:04:00.104 ERROR --- [main] c.s.r.controller.aspect.CommonControllerAdvice - unkown error:Optional long parameter 'consumerId' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+2021-04-04 23:08:40.123 ERROR --- [main] c.s.r.controller.aspect.CommonControllerAdvice - NPE error:Cannot invoke "java.lang.Integer.intValue()" because "consumerId" is null
